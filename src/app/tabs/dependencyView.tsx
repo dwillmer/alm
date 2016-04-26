@@ -3,7 +3,6 @@ import * as csx from "csx";
 import * as React from "react";
 import * as tab from "./tab";
 import {server,cast} from "../../socket/socketClient";
-import * as commands from "../commands/commands";
 import * as utils from "../../common/utils";
 import * as d3 from "d3";
 import {Types} from "../../socket/socketContract";

@@ -6,8 +6,6 @@
 import * as sw from "../../utils/simpleWorker";
 
 // Just for types
-import * as fmc from "../../disk/fileModelCache";
-import * as flm from "../fileListing/fileListingMaster";
 import * as types from "../../../common/types";
 import * as socketContract from "../../../socket/socketContract";
 

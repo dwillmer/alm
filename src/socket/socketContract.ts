@@ -1,4 +1,3 @@
-import * as sl from "../socketLib/socketLib";
 import {QRFunction, QRServerFunction, TypedEvent} from "../socketLib/socketLib";
 import * as types from "../common/types";
 import {AvailableProjectConfig} from "../common/types";

@@ -1,7 +1,7 @@
 import http = require('http');
 import https = require('https');
 import socketIo = require('socket.io');
-import {RequesterResponder, anycastMessageName, CastMessage, TypedEvent} from "./socketLib";
+import {RequesterResponder, anycastMessageName, CastMessage} from "./socketLib";
 
 export var resolve: typeof Promise.resolve = Promise.resolve.bind(Promise);
 

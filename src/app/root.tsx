@@ -2,17 +2,11 @@ import types = require("../common/types");
 /**
  * The root frontend component
  */
-import * as React from "react";
 import * as ui from "./ui";
 import * as uix from "./uix";
 import * as csx from "csx";
 import {AppTabsContainer} from "./tabs/appTabsContainer";
-import * as commands from "./commands/commands";
-var Modal = require('react-modal');
-import * as styles from "./styles/styles";
-import {cast, server} from "../socket/socketClient";
-import {match, filter as fuzzyFilter} from "fuzzaldrin";
-import {debounce,createMap,rangeLimited,getFileName} from "../common/utils";
+import {filter as fuzzyFilter} from "fuzzaldrin";
 import {OmniSearch} from "./omniSearch/omniSearch";
 import {FileTree} from "./fileTree";
 import {SelectListView} from "./selectListView";
@@ -20,9 +14,7 @@ import {InputDialog} from "./dialogs/inputDialog";
 
 import {StatusBar} from "./statusBar";
 import {MainPanel} from "./mainPanel";
-import sb = require('./statusBar');
 import {FindAndReplace} from "./findAndReplace";
-import * as state from "./state/state";
 
 /** Force require  */
 import {RenameVariable} from "./renameVariable";
@@ -35,16 +27,6 @@ import * as gitCommands from "./gitCommands";
 import * as htmlToTsx from "./htmlToTsx";
 import * as cssToTs from "./cssToTs";
 import * as goToLine from "./goToLine";
-var ensureImport = RenameVariable
-    || GotoDefinition
-    || FindReferences
-    || format_placeholder
-    || gotoHistory_placeholder
-    || clipboardRing
-    || gitCommands
-    || htmlToTsx
-    || cssToTs
-    || goToLine;
 
 export interface State {
     isOmniSearchOpen?: boolean;

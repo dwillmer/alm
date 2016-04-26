@@ -1,21 +1,15 @@
 import * as ui from "../ui";
 import * as csx from "csx";
 import * as React from "react";
-var ReactDOM = require("react-dom");
+import ReactDOM = require("react-dom");
 import * as tab from "./tab";
 import {server, cast} from "../../socket/socketClient";
 import * as commands from "../commands/commands";
 import * as utils from "../../common/utils";
-import * as d3 from "d3";
-import * as $ from "jquery";
 import * as styles from "../styles/styles";
-import * as onresize from "onresize";
-import {Clipboard} from "../clipboard";
-import {CodeEditor} from "../codemirror/codeEditor";
 import {Types} from "../../socket/socketContract";
 import {Icon} from "../icon";
 import * as Mousetrap from "mousetrap";
-import {Robocop} from "../robocop";
 import * as pure from "../../common/pure";
 
 type NodeDisplay = Types.NodeDisplay;

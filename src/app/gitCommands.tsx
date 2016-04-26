@@ -2,7 +2,6 @@
  * Registers all the git commands with the server
  */
 import * as ui from "./ui";
-import * as uix from "./uix";
 export import commands = require("./commands/commands");
 import {server} from "../socket/socketClient";
 import * as CodeMirror from "codemirror";

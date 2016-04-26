@@ -1,6 +1,4 @@
-import path = require('path');
-import tsconfig = require('./tsconfig');
-import {selectMany,createMap}  from "../../../../common/utils";
+import {createMap}  from "../../../../common/utils";
 import * as types from "../../../../common/types";
 import * as typescriptDir from "./typeScriptDir";
 

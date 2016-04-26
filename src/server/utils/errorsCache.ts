@@ -1,5 +1,5 @@
 import {TypedEvent} from "../../common/events";
-import {createMapByKey, debounce, selectMany} from "../../common/utils";
+import {createMapByKey, debounce} from "../../common/utils";
 import equal = require('deep-equal');
 
 // What we use to identify a unique error

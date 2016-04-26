@@ -1,19 +1,14 @@
 /**
  * The main dialog
  */
-import React = require("react");
-var ReactDOM = require("react-dom");
-import Radium = require('radium');
+
 import csx = require('csx');
 import {BaseComponent} from "../ui";
 import * as ui from "../ui";
 import Modal = require('react-modal');
 import * as styles from "../styles/styles";
-import {debounce, createMap, rangeLimited, getFileName} from "../../common/utils";
-import {cast, server} from "../../socket/socketClient";
+import {debounce} from "../../common/utils";
 import * as commands from "../commands/commands";
-import {match, filter as fuzzyFilter} from "fuzzaldrin";
-import * as utils from "../../common/utils";
 
 /** The singleton dialog instance */
 export var inputDialog: InputDialog;

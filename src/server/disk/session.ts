@@ -3,7 +3,6 @@
  * This allows us to restore tabs + userconfiguration etc.
  */
 
-import * as flm from "../workers/fileListing/fileListingMaster";
 import * as types from "../../common/types";
 
 import * as json from "../../common/json";

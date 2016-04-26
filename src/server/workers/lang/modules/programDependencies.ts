@@ -1,5 +1,4 @@
 import {consistentPath} from "../../../utils/fsu";
-import tsconfig = require("../core/tsconfig");
 import * as path from "path";
 import * as fs from "fs";
 import {isRelative} from "../../../utils/fsu";

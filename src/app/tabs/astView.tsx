@@ -1,16 +1,12 @@
 import * as ui from "../ui";
 import * as csx from "csx";
-import * as React from "react";
 import * as tab from "./tab";
 import {server,cast} from "../../socket/socketClient";
-import * as commands from "../commands/commands";
 import * as utils from "../../common/utils";
 import * as d3 from "d3";
 import * as $ from "jquery";
 import * as styles from "../styles/styles";
-import * as onresize from "onresize";
 import {ErrorMessage} from "./errorMessage";
-import {Clipboard} from "../clipboard";
 
 import {Types} from "../../socket/socketContract";
 

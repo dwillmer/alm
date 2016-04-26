@@ -2,16 +2,13 @@
  * Provides a simple Select list view style API
  * similar to atom space pen views
  */
-import React = require("react");
 var ReactDOM = require("react-dom");
-import Radium = require('radium');
 import csx = require('csx');
 import {BaseComponent} from "./ui";
 import * as ui from "./ui";
 import Modal = require('react-modal');
 import * as styles from "./styles/styles";
 import {debounce, createMap, rangeLimited, getFileName} from "../common/utils";
-import {cast, server} from "../socket/socketClient";
 import * as commands from "./commands/commands";
 import {match, filter as fuzzyFilter} from "fuzzaldrin";
 import * as utils from "../common/utils";

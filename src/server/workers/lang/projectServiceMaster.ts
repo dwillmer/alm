@@ -2,7 +2,7 @@ import * as sw from "../../utils/simpleWorker";
 import * as contract from "./projectServiceContract";
 
 import * as fmc from "../../disk/fileModelCache";
-import {resolve,selectMany} from "../../../common/utils";
+import {resolve} from "../../../common/utils";
 import {TypedEvent} from "../../../common/events";
 import * as types from "../../../common/types";
 import * as projectDataLoader from "../../disk/projectDataLoader";

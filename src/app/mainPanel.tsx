@@ -1,17 +1,11 @@
 import utils = require("../common/utils");
 import styles = require("./styles/styles");
-import React = require("react");
-import ReactDOMServer = require("react-dom/server");
-import Radium = require('radium');
 import csx = require('csx');
 import {BaseComponent} from "./ui";
 import * as ui from "./ui";
-import {cast,server} from "../socket/socketClient";
 import * as commands from "./commands/commands";
-import * as types from "../common/types";
 import {AvailableProjectConfig} from "../common/types";
 import {Clipboard} from "./clipboard";
-import {PendingRequestsIndicator} from "./pendingRequestsIndicator";
 import {Icon} from "./icon";
 let {DraggableCore} = ui;
 

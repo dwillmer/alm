@@ -1,14 +1,11 @@
 import * as sw from "../../utils/simpleWorker";
 import * as contract from "./fileListingContract";
-import * as fs from "fs";
 import * as fsu from "../../utils/fsu";
-import * as utils from "../../../common/utils";
 
 import * as glob from "glob";
 import chokidar = require('chokidar');
 import {throttle} from "../../../common/utils";
 import path = require('path');
-import {TypedEvent}  from "../../../common/events";
 import * as types from "../../../common/types";
 
 /** A Map for faster live calculations */

@@ -2,7 +2,6 @@ import {server} from "../socket/socketClient";
 import * as types from "../common/types";
 import React = require("react");
 import ReactDOM = require("react-dom");
-import Radium = require('radium');
 import csx = require('csx');
 import {BaseComponent} from "./ui";
 import * as ui from "./ui";
@@ -18,7 +17,6 @@ import {getDirectory,getFileName} from "../common/utils";
 import {Robocop} from "./robocop";
 import {inputDialog} from "./dialogs/inputDialog";
 import * as Mousetrap from "mousetrap";
-import * as clipboard from "./clipboard";
 import * as pure from "../common/pure";
 type TruthTable = utils.TruthTable;
 

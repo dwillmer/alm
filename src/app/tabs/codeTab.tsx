@@ -1,8 +1,6 @@
 import * as ui from "../ui";
-import * as React from "react";
 import * as tab from "./tab";
 import {server,cast} from "../../socket/socketClient";
-import * as commands from "../commands/commands";
 import * as utils from "../../common/utils";
 
 import {CodeEditor} from "../codemirror/codeEditor";

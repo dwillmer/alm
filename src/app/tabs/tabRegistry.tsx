@@ -4,7 +4,6 @@
  */
 import * as utils from "../../common/utils";
 import * as tab from "./tab";
-import * as ui from "../ui";
 
 /** Various tabs  */
 import {Code} from "./codeTab";

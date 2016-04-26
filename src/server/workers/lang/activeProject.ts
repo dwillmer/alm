@@ -4,19 +4,12 @@
  */
 
 import utils = require("../../../common/utils");
-import * as json from "../../../common/json";
-import * as tsconfig from "./core/tsconfig";
 import * as project from "./core/project";
-import {typescriptDirectory} from "./core/typeScriptDir";
 import * as types from "../../../common/types";
 import {errorsCache} from "./cache/tsErrorsCache";
 const {setErrorsByFilePaths, clearErrors, clearErrorsForFilePath} = errorsCache;
 import {diagnosticToCodeError} from "./modules/building";
-import {makeBlandError} from "../../../common/utils";
-import {TypedEvent} from "../../../common/events";
-import equal = require('deep-equal');
 import * as chalk from "chalk";
-import {AvailableProjectConfig} from "../../../common/types";
 import multimatch = require("multimatch");
 import * as fsu from "../../utils/fsu";
 

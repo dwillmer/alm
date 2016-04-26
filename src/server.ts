@@ -5,11 +5,9 @@ import cookieParser = require('cookie-parser');
 
 import {errorCodes, exit} from "./server/errorCodes";
 import path = require('path');
-import fs = require("fs");
 import open = require('open');
 import serverStarted = require('./server/serverStarted');
 import cl = require('./server/commandLine');
-import workingDir = require('./server/disk/workingDir');
 import * as session from "./server/disk/session";
 import * as chalk from "chalk";
 

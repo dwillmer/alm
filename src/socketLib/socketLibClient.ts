@@ -1,5 +1,4 @@
-import {RequesterResponder, Message, anycastMessageName, TypedEvent, CastMessage} from "./socketLib";
-let socketIo = io;
+import {RequesterResponder, anycastMessageName, TypedEvent, CastMessage} from "./socketLib";
 let origin = `${window.location.protocol}//${window.location.hostname}${(window.location.port ? ':' + window.location.port : '') }`;
 
 export var resolve: typeof Promise.resolve = Promise.resolve.bind(Promise);

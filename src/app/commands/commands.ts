@@ -17,7 +17,6 @@ import * as Mousetrap from "mousetrap";
 require("mousetrap/plugins/global-bind/mousetrap-global-bind");
 import * as events from "../../common/events";
 import * as utils from "../../common/utils";
-import * as csx from "csx";
 
 export enum CommandContext {
     Global,

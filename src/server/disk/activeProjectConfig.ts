@@ -16,7 +16,6 @@ import {AvailableProjectConfig} from "../../common/types";
 
 /** Disk access / session stuff */
 import * as session from "./session";
-import * as wd from "./workingDir";
 import * as fmc from "./fileModelCache";
 import * as flm from "../workers/fileListing/fileListingMaster";
 import * as workingDir from "./workingDir";

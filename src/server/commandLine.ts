@@ -1,5 +1,4 @@
 import minimist = require('minimist');
-import * as path from "path";
 import * as utils from "../common/utils";
 import * as workingDir from "./disk/workingDir";
 import * as fsu from "./utils/fsu";

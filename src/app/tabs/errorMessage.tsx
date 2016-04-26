@@ -2,7 +2,6 @@
  * Use this component as a placeholder
  * when something is unfunctional because of an error
  */
-import * as ui from "../ui";
 import * as csx from "../../../node_modules/csx/csx";
 import * as React from "react";
 import * as pure from "../../common/pure";

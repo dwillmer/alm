@@ -5,7 +5,7 @@ export var errorCodes = {
 }
 
 export function exit(code = errorCodes.success) {
-    if (code == errorCodes.couldNotListen) {
+    if (code === errorCodes.couldNotListen) {
         console.log('here')
         console.error("Could not listen on specified port");
     }
